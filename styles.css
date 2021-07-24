@@ -17,9 +17,26 @@ h2 {
   font-weight: 800;
 }
 
+p {
+  line-height: 2.5;
+}
+
 a {
   text-decoration: none;
   color: var(--font-color);
+}
+
+.section {
+  padding-bottom: 80px;
+}
+
+.section_gray-background {
+  background-color: var(--gray-background);
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
 }
 
 .navbar {
@@ -121,7 +138,15 @@ a {
 }
 
 .statistics__content {
-  width: 40%;
+  width: 50%;
+}
+
+.statistics__title {
+  width: 70%;
+}
+
+.statistics__text {
+  margin-top: 25px;
 }
 
 .statistics__info-boxes {
@@ -149,7 +174,37 @@ a {
   font-weight: 600;
 }
 
-.container {
-  width: 1200px;
-  margin: auto;
+.appartments__title {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 40%;
+}
+
+.appartments__info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.info-card {
+  width: 350px;
+  height: 480px;
+  background-color: white;
+}
+
+.info-card__title {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 25px;
+}
+
+.info-card__image {
+  height: 380px;
+  background-color: #b1d7e8;
+}
+
+.info-card__text {}
+
+.info-card__text-left {
+  color: var(--yellow);
 }
