@@ -180,7 +180,7 @@ a {
   width: 40%;
 }
 
-.appartments__info-cards {
+.info-cards-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -190,21 +190,42 @@ a {
   width: 350px;
   height: 480px;
   background-color: white;
-}
-
-.info-card__title {
-  font-size: 15px;
-  font-weight: 700;
-  padding: 25px;
+  box-shadow: 1px 1px 10px lightgray;
 }
 
 .info-card__image {
   height: 380px;
-  background-color: #b1d7e8;
+  width: 350px;
+  /* background-color: #b1d7e8; */
+  content: url(./assets/images/meme.jpg);
+} 
+
+.info-card__title {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 20px;
 }
 
-.info-card__text {}
-
-.info-card__text-left {
+.info-card__important-text {
   color: var(--yellow);
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.info-card__icons {
+  float: right;
+  margin-right: 20px;
+  color: var(--gray);
+  opacity: 50%;
+}
+
+.appartments__search-form {
+  padding: 60px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.appartments__view-all-button {
+  width: 250px;
 }
