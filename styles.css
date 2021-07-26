@@ -215,6 +215,9 @@ a {
 .info-card__icons {
   float: right;
   margin-right: 20px;
+}
+
+.info-card__icons_faded {
   color: var(--gray);
   opacity: 50%;
 }
@@ -228,4 +231,7 @@ a {
 
 .appartments__view-all-button {
   width: 250px;
+  border-radius: 5px;
+  background-color: white;
+  border: none;
 }
