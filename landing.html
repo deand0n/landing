@@ -16,7 +16,7 @@
             <a class="navbar__item navbar__item_logo" href="">luxestate</a>
             <div>
                 <a class="navbar__item" href="">About</a>
-                <a class="navbar__item" href="">Appartments</a>
+                <a class="navbar__item" href="">apartments</a>
                 <a class="navbar__item" href="">How It Work</a>
                 <a class="navbar__item" href="">Agents</a>
                 <a class="navbar__item" href="">Contact Us</a>
@@ -34,12 +34,12 @@
                 <div class="about-company">
                     <div class="about-company__background"></div>
                     <h1 class="about-company__title">Find Your New Modern Apartment</h1>
-                    <div class="about-company__search-form">
-                        <div class="search-form">
-                            <input type="text" placeholder="Search locations" class="search-form__input">
-                            <button class="search-form__button">Search</button>
-                        </div>
+
+                    <div class="search-form about-company__search-form">
+                        <input type="text" placeholder="Search locations" class="search-form__input">
+                        <button class="search-form__button">Search</button>
                     </div>
+
                     <div class="about-company__scroll-sign">
                         &#8592; Scroll Down
                     </div>
@@ -57,15 +57,15 @@
                     </div>
                 </div>
                 <div class="statistics">
-                    <div class="statistics__content">
-                        <h2 class="statistics__title">Our’s Company Statistics</h2>
-                        <p class="statistics__text">In this space market-facing, yet UI work flows , or bake it in. Red
+                    <div class="content content_wide">
+                        <h2 class="content__title">Our’s Company Statistics</h2>
+                        <p class="content__text">In this space market-facing, yet UI work flows , or bake it in. Red
                             flag
                             we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough
                             bandwidth closing these latest prospects is like putting socks on an octopus, yet due
                             diligence.
                         </p>
-                        <p class="statistics__text">We need to get all stakeholders up to speed and in the right place
+                        <p class="content__text">We need to get all stakeholders up to speed and in the right place
                             hard
                             stop, or technologically savvy or pre launch. Pro-sumer software commitment to the cause
                             offline
@@ -93,18 +93,31 @@
                 </div>
             </div>
         </section>
+
         <section class="section section_gray-background">
-            <!-- div.container>div.appartments>div.appartments__title+div.appartments__info-carddiv.info-card*6>div.info-card__image+div.info-card__title+div.info-card__text.info-card__text_yellow.info-card__text_left+div.info-card__text.info-card__text_light-blue.info-card__text_right^^div.appartments__search-form>div.search-form+button.appartments__view-all-button -->
             <div class="container">
-                <div class="appartments">
-                    <h2 class="appartments__title">
+                <div class="apartments">
+                    <h2 class="apartments__title">
                         More Then 500+
-                        Appartments For Rent
+                        apartments For Rent
                     </h2>
                     <div class="info-cards-list">
                         <div class="info-card">
                             <div class="info-card__image"></div>
-                            <div class="info-card__title">Random Street, Apt B453, New York</div>
+                            <h4 class="info-card__title">Random Street, Apt B453, New York</h4>
+                            <span class="info-card__important-text">$3,500</span>
+                            <span class="info-card__icons info-card__icons_faded">
+                                <img src="./assets/images/shower.svg" width="15px" height="15px" alt="shower icon"
+                                    style="vertical-align: middle; margin: 0px 5px">
+                                2BA
+                                <img src="./assets/images/bed.svg" width="20px" height="20px" alt="bed icon"
+                                    style="vertical-align: middle; margin: 0px 5px;">
+                                2BD
+                            </span>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-card__image"></div>
+                            <h4 class="info-card__title">Random Street, Apt B453, New York</h4>
                             <span class="info-card__important-text">$3,500</span>
                             <span class="info-card__icons info-card__icons_faded">
                                 <img src="./assets/images/shower.svg" width="15px" height="15px"
@@ -117,7 +130,7 @@
                         </div>
                         <div class="info-card">
                             <div class="info-card__image"></div>
-                            <div class="info-card__title">Random Street, Apt B453, New York</div>
+                            <h4 class="info-card__title">Random Street, Apt B453, New York</h4>
                             <span class="info-card__important-text">$3,500</span>
                             <span class="info-card__icons info-card__icons_faded">
                                 <img src="./assets/images/shower.svg" width="15px" height="15px"
@@ -130,7 +143,7 @@
                         </div>
                         <div class="info-card">
                             <div class="info-card__image"></div>
-                            <div class="info-card__title">Random Street, Apt B453, New York</div>
+                            <h4 class="info-card__title">Random Street, Apt B453, New York</h4>
                             <span class="info-card__important-text">$3,500</span>
                             <span class="info-card__icons info-card__icons_faded">
                                 <img src="./assets/images/shower.svg" width="15px" height="15px"
@@ -143,7 +156,7 @@
                         </div>
                         <div class="info-card">
                             <div class="info-card__image"></div>
-                            <div class="info-card__title">Random Street, Apt B453, New York</div>
+                            <h4 class="info-card__title">Random Street, Apt B453, New York</h4>
                             <span class="info-card__important-text">$3,500</span>
                             <span class="info-card__icons info-card__icons_faded">
                                 <img src="./assets/images/shower.svg" width="15px" height="15px"
@@ -156,20 +169,7 @@
                         </div>
                         <div class="info-card">
                             <div class="info-card__image"></div>
-                            <div class="info-card__title">Random Street, Apt B453, New York</div>
-                            <span class="info-card__important-text">$3,500</span>
-                            <span class="info-card__icons info-card__icons_faded">
-                                <img src="./assets/images/shower.svg" width="15px" height="15px"
-                                    style="vertical-align: middle; margin: 0px 5px">
-                                2BA
-                                <img src="./assets/images/bed.svg" width="20px" height="20px"
-                                    style="vertical-align: middle; margin: 0px 5px;">
-                                2BD
-                            </span>
-                        </div>
-                        <div class="info-card">
-                            <div class="info-card__image"></div>
-                            <div class="info-card__title">Random Street, Apt B453, New York</div>
+                            <h4 class="info-card__title">Random Street, Apt B453, New York</h4>
                             <span class="info-card__important-text">$3,500</span>
                             <span class="info-card__icons info-card__icons_faded">
                                 <img src="./assets/images/shower.svg" width="15px" height="15px"
@@ -181,12 +181,51 @@
                             </span>
                         </div>
                     </div>
-                    <div class="appartments__search-form">
+                    <div class="apartments__search-form">
                         <div class="search-form">
                             <input type="text" placeholder="Search locations" class="search-form__input">
                             <button class="search-form__button">Search</button>
                         </div>
-                        <button class="appartments__view-all-button">View All Appartments</button>
+                        <button class="apartments__view-all-button">View All apartments</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="how-it-works">
+                    <div class="content">
+                        <h2 class="content__title">How it works?</h2>
+                        <p class="content__text">In this space market-facing, yet UI work flows , or bake it in. Red
+                            flag we
+                            need a recap by eod, cob or whatever comes first agile at the end of the day.</p>
+                    </div>
+                    <div class="how-it-works__steps">
+                        <div class="how-it-works__step how-it-works__step_yellow">
+                            <svg class="how-it-works__step-number"><text x="-40" y="80">01</text></svg>
+                            <h3 class=" how-it-works__step-title">01 Find Your Location</h3>
+                            <div class="how-it-works__step-content">In this space market-facing, yet UI work
+                                flows , or
+                                bake it in. Red flag we neef the day. </div>
+                            <a class="how-it-works__step-link"> Find Location</a>
+                        </div>
+                        <div class="how-it-works__step">
+                            <svg class="how-it-works__step-number"><text x="-40" y="80">02</text></svg>
+                            <h3 class=" how-it-works__step-title">02 Find Appartment</h3>
+                            <div class="how-it-works__step-content">In this space market-facing, yet UI work
+                                flows , or
+                                bake it in. Red flag we neef the day. </div>
+                            <a class="how-it-works__step-link"> Find Appartment</a>
+                        </div>
+                        <div class="how-it-works__step">
+                            <svg class="how-it-works__step-number"><text x="-40" y="80">03</text></svg>
+                            <h3 class=" how-it-works__step-title">03 Make Contact</h3>
+                            <div class="how-it-works__step-content">In this space market-facing, yet UI work
+                                flows , or
+                                bake it in. Red flag we neef the day. </div>
+                            <a class="how-it-works__step-link"> Make Contact</a>
+                        </div>
                     </div>
                 </div>
             </div>

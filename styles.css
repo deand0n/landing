@@ -7,9 +7,15 @@ body {
   --blue-background: #96bece;
   margin: auto;
   color: var(--font-color);
+  fill: var(--font-color);
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   line-height: 1.2;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 800;
 }
 
 h2 {
@@ -17,17 +23,27 @@ h2 {
   font-weight: 800;
 }
 
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
 p {
   line-height: 2.5;
 }
-
+/* 
 a {
   text-decoration: none;
   color: var(--font-color);
-}
+} */
 
 .section {
   padding-bottom: 80px;
+  padding-top: 80px;
 }
 
 .section_gray-background {
@@ -49,6 +65,7 @@ a {
 .navbar__item {
   padding: 10px;
   text-align: center;
+  text-decoration: none;
 }
 
 .navbar__item_logo {
@@ -68,6 +85,7 @@ a {
   grid-template-columns: 1fr 2fr 1.5fr 1.5fr;
   grid-template-rows: repeat(3, 1fr) 0.5fr;
   height: 630px;
+  margin-top: -80px;
 }
 
 .about-company__background {
@@ -77,8 +95,6 @@ a {
 }
 
 .about-company__title {
-  font-size: 60px;
-  font-weight: 800;
   line-height: 1.2;
   grid-area: 2 / 1 / 2 / 3;
 }
@@ -98,6 +114,7 @@ a {
 
 .about-company__search-form {
   margin-left: 25px;
+  align-self: flex-start;
 }
 
 .search-form {
@@ -137,15 +154,19 @@ a {
   justify-content: space-between;
 }
 
-.statistics__content {
+.content {
+  width: 35%;
+}
+
+.content_wide {
   width: 50%;
 }
 
-.statistics__title {
+.content__title {
   width: 70%;
 }
 
-.statistics__text {
+.content__text {
   margin-top: 25px;
 }
 
@@ -174,8 +195,7 @@ a {
   font-weight: 600;
 }
 
-.appartments__title {
-  padding-top: 60px;
+.apartments__title {
   padding-bottom: 60px;
   width: 40%;
 }
@@ -201,8 +221,6 @@ a {
 } 
 
 .info-card__title {
-  font-size: 15px;
-  font-weight: 700;
   margin: 20px;
 }
 
@@ -222,16 +240,38 @@ a {
   opacity: 50%;
 }
 
-.appartments__search-form {
-  padding: 60px 0;
+.apartments__search-form {
+  padding-top: 60px;
   display: flex;
   flex-direction: row;
   gap: 40px;
 }
 
-.appartments__view-all-button {
+.apartments__view-all-button {
   width: 250px;
   border-radius: 5px;
   background-color: white;
   border: none;
+}
+
+.how-it-works__steps {
+  display: flex;
+  gap: 30px;
+}
+
+.how-it-works__step {
+  width: 350px;
+  height: 370px;
+  box-shadow: 1px 1px 10px lightgray;
+}
+
+.how-it-works__step_yellow {
+  background-color: var(--yellow);
+  color: white;
+  fill: white;
+}
+
+.how-it-works__step-number {
+  font-size: 170px;
+  font-weight: 900;
 }
