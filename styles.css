@@ -13,13 +13,18 @@ body {
   line-height: 1.2;
 }
 
+a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
 h1 {
   font-size: 60px;
   font-weight: 800;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 800;
 }
 
@@ -35,11 +40,6 @@ h4 {
 p {
   line-height: 2.5;
 }
-/* 
-a {
-  text-decoration: none;
-  color: var(--font-color);
-} */
 
 .section {
   padding-bottom: 80px;
@@ -51,7 +51,7 @@ a {
 }
 
 .container {
-  width: 1200px;
+  width: 1150px;
   margin: auto;
 }
 
@@ -66,6 +66,7 @@ a {
   padding: 10px;
   text-align: center;
   text-decoration: none;
+  color: var(--font-color);
 }
 
 .navbar__item_logo {
@@ -155,15 +156,23 @@ a {
 }
 
 .content {
-  width: 35%;
+  width: 375px;
 }
 
 .content_wide {
-  width: 50%;
+  width: 475px;
+}
+
+.content_wider {
+  width: 550px;
 }
 
 .content__title {
   width: 70%;
+}
+
+.content__title_small { 
+  font-size: 25px;
 }
 
 .content__text {
@@ -210,14 +219,14 @@ a {
   width: 350px;
   height: 480px;
   background-color: white;
-  box-shadow: 1px 1px 10px lightgray;
+  box-shadow: 1px 1px 15px lightgray;
 }
 
 .info-card__image {
   height: 380px;
   width: 350px;
-  /* background-color: #b1d7e8; */
-  content: url(./assets/images/meme.jpg);
+  background-color: #b1d7e8;
+  /* content: url(./assets/images/meme.jpg); */
 } 
 
 .info-card__title {
@@ -257,12 +266,13 @@ a {
 .how-it-works__steps {
   display: flex;
   gap: 30px;
+  padding: 80px 0;
 }
 
 .how-it-works__step {
   width: 350px;
   height: 370px;
-  box-shadow: 1px 1px 10px lightgray;
+  box-shadow: 1px 1px 15px lightgray;
 }
 
 .how-it-works__step_yellow {
@@ -274,4 +284,49 @@ a {
 .how-it-works__step-number {
   font-size: 170px;
   font-weight: 900;
+}
+
+.how-it-works__step-content {
+  margin-left: 40px;
+  margin-top: -10px;
+}
+
+.how-it-works__step-title {
+
+}
+
+.how-it-works__step-text {
+  padding: 20px;
+}
+
+.how-it-works__step_yellow .how-it-works__step-link {
+  color: white;
+}
+
+.how-it-works__step-link {
+  margin-left: 30px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.services__content {
+  /* background-color: green; */
+  margin-top: 60px;
+  display: flex;
+}
+
+.services__background {
+  background-color: var(--blue-background);
+  margin-left: -100px;
+  flex: 1;
+}
+
+.services__list {
+  /* background-color: red; */
+  width: 45%;
+  margin-left: 80px;
+}
+
+.services__content {
+  /* margin-top: 80px; */
 }
