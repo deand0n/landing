@@ -310,7 +310,6 @@ p {
 }
 
 .services__content {
-  /* background-color: green; */
   margin-top: 60px;
   display: flex;
 }
@@ -322,11 +321,10 @@ p {
 }
 
 .services__list {
-  /* background-color: red; */
   width: 45%;
   margin-left: 80px;
 }
 
 .services__content {
-  /* margin-top: 80px; */
+  margin-top: 80px;
 }
