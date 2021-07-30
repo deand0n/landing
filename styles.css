@@ -59,7 +59,8 @@ p {
 }
 
 .container {
-  max-width: 1150px;
+  /* max-width: 1150px; */
+  width: 1150px;
   margin: auto;
 }
 
@@ -235,7 +236,7 @@ p {
   width: 350px;
   background-color: #b1d7e8;
   content: url(./assets/images/meme.jpg);
-} 
+}
 
 .info-card__title {
   margin: 20px;
@@ -301,9 +302,7 @@ p {
   margin-top: -10px;
 }
 
-.how-it-works__step-title {
-
-}
+.how-it-works__step-title {}
 
 .how-it-works__step-text {
   padding: 20px;
