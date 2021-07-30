@@ -348,13 +348,13 @@ p {
 .super-awesome-ad {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 80px;
 }
 
 .super-awesome-ad__content {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 50px;
 }
 
 .super-awesome-ad__content_reverse {
@@ -370,14 +370,17 @@ p {
   background-color: var(--blue-background);
   width: 100%;
   padding: 0 20px;
+  position: relative;
 }
 
 .super-awesome-ad__location {
   position: absolute;
   background-color: var(--yellow);
+  padding-right: 75px;
+  left: 20%;
+  bottom: -7.5%;
 }
 
 .super-awesome-ad__text {
-  /* padding: 100px 50px; */
   padding: 100px 35px;
 }
