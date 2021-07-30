@@ -13,6 +13,10 @@ body {
   line-height: 1.2;
 }
 
+html * {
+  /* border: 1px solid red; */
+}
+
 a {
   text-decoration: none;
   color: var(--font-color);
@@ -29,10 +33,14 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 25px;
 }
 
 h4 {
+  font-size: 18px;
+}
+
+h5 {
   font-size: 15px;
   font-weight: 700;
 }
@@ -51,7 +59,7 @@ p {
 }
 
 .container {
-  width: 1150px;
+  max-width: 1150px;
   margin: auto;
 }
 
@@ -175,10 +183,6 @@ p {
   width: 100%;
 }
 
-.content__title_small { 
-  font-size: 25px;
-}
-
 .content__text {
   margin-top: 25px;
 }
@@ -230,7 +234,7 @@ p {
   height: 380px;
   width: 350px;
   background-color: #b1d7e8;
-  /* content: url(./assets/images/meme.jpg); */
+  content: url(./assets/images/meme.jpg);
 } 
 
 .info-card__title {
@@ -306,7 +310,7 @@ p {
 }
 
 .how-it-works__step_yellow .how-it-works__step-link {
-  color: white;
+  color: inherit;
 }
 
 .how-it-works__step-link {
@@ -339,4 +343,41 @@ p {
   margin-top: 60px;
   display: flex;
   gap: 30px;
+}
+
+.super-awesome-ad {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.super-awesome-ad__content {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.super-awesome-ad__content_reverse {
+  flex-direction: row-reverse;
+}
+
+.super-awesome-ad__text_rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.super-awesome-ad__background {
+  background-color: var(--blue-background);
+  width: 100%;
+  padding: 0 20px;
+}
+
+.super-awesome-ad__location {
+  position: absolute;
+  background-color: var(--yellow);
+}
+
+.super-awesome-ad__text {
+  /* padding: 100px 50px; */
+  padding: 100px 35px;
 }
